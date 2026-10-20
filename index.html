@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Forms</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Academia de Heróis</h1>
+    <p>Inscreva-se para participar da próxima missão</p>
+  </header>
+
+  <main>
+    <section id="card">
+      <h2>Faça sua inscrição</h2>
+      <form action="#" method="get">
+        <label for="enviar">Nome do herói:</label>
+        <input id="enviar" name="enviar" type="text" required/>
+
+        <label for="email">E-mail:</label>
+        <input id="email" name="email" type="email" required/>
+        <label for="opcoes">Escolha sua equipe:</label>
+        <select id="opcoes" nome="opcoes">
+          <option>Liga da Justiça</option>
+          <option>DC</option>
+          <option>Marvel</option>
+        </select>
+        <section id="escolha">
+          <h3>Qual poder você prefere?</h3>
+          <label class="opcao">
+            <input id="Voar" name="igual" type="radio"/>
+            Voar
+          </label>
+
+          <label class="opcao">
+            <input id="Supervelocidade" name="igual" type="radio"/>
+            Supervelocidade
+          </label>
+
+          <label class="opcao">
+            <input id="Superforça" name="igual" type="radio"/>
+            Superforça
+          </label>
+
+          <label class="opcao">
+            <input id="novas-missoes" name="igual" type="checkbox"/>
+            Quero receber novas missões
+          </label>
+        </section>
+        <label for="obs">Por que você quer ser um herói?</label>
+        <section id="botao">
+          <textarea id="obs" name="obs" rowa="5"></textarea>
+          <button type="submit">Enviar inscrição</button>
+        </section>
+    </section>
+      </form>
+  </main>
+  <footer>
+    <p>Prática de formulários HTML.
+
+  </footer>
+</body>
+</html>
